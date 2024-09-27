@@ -1,7 +1,7 @@
 ##### ((((   A backup repository of https://github.com/Salion0/Search-Engine-University-Project   ))))
 # SEARCH ENGINE
 ## Introduction
-The project revolves around the building of a Search Engine. the first phase carried out in this project is the indexing phase, which allows to construct the necessary data structures for the second phase, the query processing phase.
+The project revolves around the building of a Search Engine. The first developed part in this project is the indexing phase, which allows to construct the necessary data structures for the second phase, the query processing phase.
 Here the user queries are processed and the most relevant documents for each query are returned to the user.
 
 ## Program execution
