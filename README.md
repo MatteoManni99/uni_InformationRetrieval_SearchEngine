@@ -8,13 +8,15 @@ Here the user queries are processed and the most relevant documents for each que
 To execute the program, the project has to be compiled using JDK-21 (https://www.oracle.com/it/java/technologies/downloads/#java21) and Maven (https://maven.apache.org/download.cgi). The path for the  file where the **main** is located is the following: src\main\java\it\unipi\mircv\CommandLineInterface.java.
 
 Commands to download, compile and run the program:
-1.   git clone https://github.com/Salion0/Search-Engine-University-Project
-2.   cd Search-Engine-University-Project
-3.   mvn clean package -Dmaven.test.skip\=true
-4.   java -jar target/SearchEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar  
+```bash
+    git clone https://github.com/Salion0/Search-Engine-University-Project
+   cd Search-Engine-University-Project
+   mvn clean package -Dmaven.test.skip\=true
+   java -jar target/SearchEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar  
+```  
 
 ## Program Functionalities
-The program is able to carry out the following procedures:
+The application is able to carry out the following procedures:
 *   Indexing of a given collection
 *   Process queries once the index data structure is built
 
@@ -29,8 +31,8 @@ Both of them can be executed with different options that can be set by the user:
     *   TRUE: Stemming is carried out on words
     *   FALSE: Stemming isn't taken into account
 *   Compression:
-    *   TRUE: enables compression
-    *   FALSE: compression isn't used
+    *   TRUE: enables data compression
+    *   FALSE: data compression isn't used
 *   ScoreType:
     *   BM25: use BM25 as the score function
     *   TFIDF: use TFIDF as the score function
