@@ -10,9 +10,9 @@ To execute the program, the project has to be compiled using JDK-21 (https://www
 Commands to download, compile and run the program:
 ```bash
     git clone https://github.com/Salion0/Search-Engine-University-Project
-   cd Search-Engine-University-Project
-   mvn clean package -Dmaven.test.skip\=true
-   java -jar target/SearchEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar  
+    cd Search-Engine-University-Project
+    mvn clean package -Dmaven.test.skip\=true
+    java -jar target/SearchEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar  
 ```  
 
 ## Program Functionalities
